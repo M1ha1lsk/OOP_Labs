@@ -1,0 +1,5 @@
+/home/mimik/lw1/build/CMakeFiles/task.dir
+/home/mimik/lw1/build/CMakeFiles/tests.dir
+/home/mimik/lw1/build/CMakeFiles/test.dir
+/home/mimik/lw1/build/CMakeFiles/edit_cache.dir
+/home/mimik/lw1/build/CMakeFiles/rebuild_cache.dir
