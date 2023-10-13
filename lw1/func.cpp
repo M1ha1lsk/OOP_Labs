@@ -4,21 +4,20 @@
 
 using namespace std;
 
-std::string decimalToBinary(long long int decimal) {
-	int* binary = new int[32];
-	std::string mas;
-	for (int i = 0; i != 32; ++i) {
-		binary[i] = 0;
-	}
-	int i = 31;
-	while (decimal > 0) {
-		binary[31 - i] = int(decimal % 2);
-		decimal /= 2;
-		i--;
-	}
-	for (int i = 31; i != -1; --i)
-		mas += to_string(binary[i]);
-	return mas;
+std::string closest_pair_tonum(int upper_limit) {
+    std::string closest_pair;
+    int closest_diff = upper_limit;
+    for (int m = upper_limit - 1; m > 0; m--) { 
+        for (int n = m - 1; n > 0; n--) { 
+            int sum = m + n;
+            int diff = m - n;
+            if (sqrt(sum) == trunc(sqrt(sum)) && sqrt(diff) == trunc(sqrt(diff))) {
+                closest_pair += to_string(m);
+                closest_pair += ' ';
+                closest_pair += to_string(n);
+                return closest_pair;
+            }
+        }
+    }
+    return closest_pair;
 }
-
-

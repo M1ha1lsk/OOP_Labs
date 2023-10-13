@@ -6,10 +6,8 @@
 using namespace std;
 
 int main() {
-    long long int decimal;
-    cout << "Enter a decimal number: ";
-    cin >> decimal;
-	cout << decimalToBinary(decimal) << endl;
-	//system("pause");
+    int a;
+    cin >> a;
+    cout << closest_pair_tonum(a) << endl;
     return 0;
 }

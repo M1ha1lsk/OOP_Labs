@@ -3,4 +3,4 @@
 #include <iostream>
 #include <string>
 
-std::string decimalToBinary(long long int decimal);
+std::string closest_pair_tonum(int upper_limit);
