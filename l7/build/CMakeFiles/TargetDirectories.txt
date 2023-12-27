@@ -1,0 +1,4 @@
+/home/mimik/mai-oop-labs/l7/build/CMakeFiles/lib_l7.dir
+/home/mimik/mai-oop-labs/l7/build/CMakeFiles/main_l7.dir
+/home/mimik/mai-oop-labs/l7/build/CMakeFiles/edit_cache.dir
+/home/mimik/mai-oop-labs/l7/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/mimik/mai-oop-labs/l3/build/CMakeFiles/main_l3.dir
+/home/mimik/mai-oop-labs/l3/build/CMakeFiles/edit_cache.dir
+/home/mimik/mai-oop-labs/l3/build/CMakeFiles/rebuild_cache.dir

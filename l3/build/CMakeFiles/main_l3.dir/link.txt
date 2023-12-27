@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_l3.dir/src/main.cpp.o CMakeFiles/main_l3.dir/src/point.cpp.o CMakeFiles/main_l3.dir/src/rect.cpp.o CMakeFiles/main_l3.dir/src/rhombus.cpp.o CMakeFiles/main_l3.dir/src/trapezium.cpp.o -o main_l3 
